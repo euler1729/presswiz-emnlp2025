@@ -1,4 +1,4 @@
-# Translation Quality Evaluation: PressWiz vs Google Translate
+# Translation and Summary Quality Evaluation: PressWiz vs Google Translate
 
 A comprehensive evaluation comparing PressWiz and Google Translate's performance on Bengali-English translation tasks using multiple evaluation metrics.
 

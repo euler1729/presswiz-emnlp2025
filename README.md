@@ -17,8 +17,8 @@ Measures n-gram precision between translated and reference texts (0-1 scale, hig
 
 | Direction | PressWiz | Google Translator | Improvement |
 |-----------|----------|------------------|-------------|
-| BN → EN | **0.5485** | 0.5398 | +1.6% |
-| EN → BN | **0.4395** | 0.2962 | +48.4% |
+| BN → EN | **54.85** | 53.98 | +1.6% |
+| EN → BN | **43.95** | 29.62 | +48.4% |
 
 ### SacreBLEU Scores
 International standard BLEU implementation (0-100 scale, higher is better).
@@ -33,16 +33,16 @@ Measures recall-oriented understanding for gisting evaluation (0-1 scale, higher
 
 | Metric | PressWiz | Google Translator | Improvement |
 |--------|----------|------------------|-------------|
-| ROUGE-1 F1 | **0.4498** | 0.3835 | +17.3% |
-| ROUGE-L F1 | **0.3492** | 0.2906 | +20.2% |
+| ROUGE-1 F1 | **44.98** | 38.35 | +17.3% |
+| ROUGE-L F1 | **34.92** | 29.06 | +20.2% |
 
 ### BERTScore
 Contextual similarity using pre-trained BERT embeddings (0-1 scale, higher is better).
 
 | System | F1 Score | Performance |
 |--------|----------|-------------|
-| PressWiz | **0.7807** | Excellent |
-| Google Translator | 0.7694 | Very Good |
+| PressWiz | **78.07** | Excellent |
+| Google Translator | 76.94 | Very Good |
 
 ## 📈 Key Findings
 
@@ -68,10 +68,10 @@ EN → BN (English to Bengali):
 ```
 
 #### Quality Assessment
-- **Excellent** (>0.7): BERTScores for both systems
-- **Good** (0.4-0.6): PressWiz BLEU scores
-- **Moderate** (0.3-0.4): PressWiz ROUGE scores
-- **Concerning** (<0.3): Google's EN→BN performance
+- **Excellent** (>70): BERTScores for both systems
+- **Good** (40.0-60.0): PressWiz BLEU scores
+- **Moderate** (30.0-40.0): PressWiz ROUGE scores
+- **Concerning** (<30.0): Google's EN→BN performance
 
 ## 🔧 Evaluation Setup
 
